@@ -61,7 +61,7 @@ export function getYourBooking(payload, cb)
 
 export function getLawyerHistory(payload)
 {
-  // console.log(cb);
+  
     return new Promise((res,rej)=>{
         if(data)
         {
@@ -74,7 +74,6 @@ export function getLawyerHistory(payload)
                 }
                 
             })
-            console.log("vhhjfgjhgg",item)
              dispatch({
                 payload:item,
                 type:'GET_LAWYER_HISTORY'

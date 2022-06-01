@@ -4,7 +4,6 @@ const initialState={
 };
 
 export const lawyerData=(state=initialState, action={})=>{
-    console.log("ppppp",action.payload)
     switch(action.type)
     {
         case 'GET_ALL_LAWYERS':

@@ -11,7 +11,6 @@ function LawyerDetails(props) {
     const dispatch=useDispatch();
     const id=localStorage.getItem('id');
     useEffect(()=>{
-        console.log(localStorage.getItem('id'),'jhuiuhf')
         let payload={
             id:id
         }
@@ -22,7 +21,6 @@ function LawyerDetails(props) {
     )
     
     
-    console.log(data,"undefinhgff");
   return (
     <div className='container'>
     <h1> History of the Clients</h1>
