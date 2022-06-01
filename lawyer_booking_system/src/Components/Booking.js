@@ -51,7 +51,7 @@ export default function Booking(props) {
           <th>Booking/day</th>
           <th>Booked</th>
           <th>Fees/Appointment</th>
-          {/* <th>History</th> */}
+          <th>History</th>
           <th>Action</th>
           
           
@@ -65,11 +65,11 @@ export default function Booking(props) {
               <td>{val.availability}</td>
               <td>{val.booked}</td>
               <td>{val.cost}</td>
-              {/* <td><span style={{
+              <td><span style={{
                 fontSize:"Bold",
                 color:"blue",
                 cursor:"pointer"
-              }} onClick={()=>checkHistory(val.id)}>Check</span></td> */}
+              }} onClick={()=>checkHistory(val.id)}>Check</span></td>
               <td>{val.availability==val.booked ? <h3>Appointments are not Available!</h3>:<Button variant="contained" onClick={()=> bookingFun(val.id)}>Book</Button>}</td>
             </tr>
           )

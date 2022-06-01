@@ -23,6 +23,14 @@ const data=[
                 "status":"Active"
 
             },
+            {
+                "id":"2",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
         ]
     },
     {
@@ -31,7 +39,33 @@ const data=[
         "speciality":"Divorce",
         "availability":5,
         "cost":400,
-        "booked":3
+        "booked":3,
+        "history":[
+            {
+                "id":"1",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+            {
+                "id":"2",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+            {
+                "id":"2",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+        ]
     },
     {
         "id":3,
@@ -39,7 +73,33 @@ const data=[
         "speciality":"Divorce",
         "availability":2,
         "cost":100,
-        "booked":2
+        "booked":2,
+        "history":[
+            {
+                "id":"1",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+            {
+                "id":"2",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+            {
+                "id":"2",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+        ]
     },
     
     {
@@ -48,7 +108,33 @@ const data=[
         "speciality":"Property",
         "availability":5,
         "cost":500,
-        "booked":0
+        "booked":0,
+        "history":[
+            {
+                "id":"1",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+            {
+                "id":"2",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+            {
+                "id":"2",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+        ]
     },
     {
         "id":5,
@@ -56,7 +142,33 @@ const data=[
         "speciality":"Divorce",
         "availability":3,
         "cost":200,
-        "booked":3
+        "booked":3,
+        "history":[
+            {
+                "id":"1",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+            {
+                "id":"2",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+            {
+                "id":"2",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+        ]
     },
     {
         "id":6,
@@ -64,7 +176,33 @@ const data=[
         "speciality":"crimina*",
         "availability":8,
         "cost":400,
-        "booked":5
+        "booked":5,
+        "history":[
+            {
+                "id":"1",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+            {
+                "id":"2",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+            {
+                "id":"2",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+        ]
     },
     {
         "id":7,
@@ -72,7 +210,33 @@ const data=[
         "speciality":"Divorce",
         "availability":3,
         "cost":200,
-        "booked":0
+        "booked":0,
+        "history":[
+            {
+                "id":"1",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+            {
+                "id":"2",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+            {
+                "id":"2",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+        ]
     },
     {
         "id":8,
@@ -80,7 +244,33 @@ const data=[
         "speciality":"Divorce",
         "availability":17,
         "cost":2000,
-        'booked':5
+        'booked':5,
+        "history":[
+            {
+                "id":"1",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+            {
+                "id":"2",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+            {
+                "id":"2",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+        ]
     },
     {
         "id":9,
@@ -88,7 +278,33 @@ const data=[
         "speciality":"Property",
         "availability":13,
         "cost":700,
-        'booked':3
+        'booked':3,
+        "history":[
+            {
+                "id":"1",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+            {
+                "id":"2",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+            {
+                "id":"2",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+        ]
     },
     {
         "id":10,
@@ -96,7 +312,33 @@ const data=[
         "speciality":"Criminal",
         "availability":3,
         "cost":200,
-        'booked':0
+        'booked':0,
+        "history":[
+            {
+                "id":"1",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+            {
+                "id":"2",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+            {
+                "id":"2",
+                "date":"15/06/2020",
+                "court":"Supreme",
+                "client":"Rohit Khanna",
+                "status":"Active"
+
+            },
+        ]
     },
    
 ];

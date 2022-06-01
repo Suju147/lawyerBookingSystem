@@ -74,14 +74,14 @@ export function getLawyerHistory(payload)
                 }
                 
             })
-            
+            console.log("vhhjfgjhgg",item)
              dispatch({
-                payload:data,
+                payload:item,
                 type:'GET_LAWYER_HISTORY'
             })
            
            
-            return res(item);
+            return res(data);
         }
         else
         {

@@ -1,9 +1,10 @@
 const initialState={
     list:[],
-    item:undefined
+    item:[]
 };
 
 export const lawyerData=(state=initialState, action={})=>{
+    console.log("ppppp",action.payload)
     switch(action.type)
     {
         case 'GET_ALL_LAWYERS':
@@ -14,7 +15,7 @@ export const lawyerData=(state=initialState, action={})=>{
         case 'GET_LAWYER_HISTORY':
             return {
                 ...state,
-                item:action.payload
+                item:[...action.payload]
             }
         default:
             return {
